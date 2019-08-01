@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2017, 4:44:38 PM
+    Author     : Advit
+*/
+.display-block{
+        display:block;
+}
+.form-control-50{ 
+        width:45% !important;
+        display: inline !important;
+}
+.popover{
+        font-size: 12px; 
+}
+.pagination li.current a{
+        background: #3C8DBC; 
+        color:white;
+}
+@media print{
+    table{
+            font-size:12px;
+            border-collapse:collapse !important;
+    }
+    td,tr,th{
+            text-align:left;
+            border:1px solid black !important;
+            padding:4px !important;
+    }
+    th{
+            font-weight:bold;
+    }
+    @page { 
+            margin:4em 1em 2em 1em;
+    }
+}
+.pagination{
+        display: inline-block;
+        padding-left: 0;
+        margin: 0;
+        border-radius: 4px;
+}
+.paginate{
+        border: 1px #efefef ridge;
+}
+.paginate div{
+        margin-top: 15px;
+}
+.col-label label{
+        margin-right:10px;
+}
+.datepicker table tr td.disabled{
+        text-decoration: line-through !important;
+}
+.table > tbody > tr .table-cls{
+        padding: 0px;
+}
+.table > tbody > tr > td .table{
+        margin-bottom:0px;
+}
+.table > tbody > tr > td > .table > tbody > tr > th, .table > tbody > tr > td > .table > tbody > tr > td{
+        padding:5px 10px;   
+}
+.table > tbody > tr > td > .table > tbody > tr > td{
+        text-align: center;
+} 
+.bg-light-yellow{
+        background-color: #FFFF99;
+}
+.bg-light-pink{
+        background-color: #FFB6C1;
+}
+.bg-white{
+        background-color: white;
+}
+.bg-lyellow-gradient {
+        background: #d275ba !important;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #d275ba), color-stop(1, #f7bc60)) !important;
+        background: -ms-linear-gradient(bottom, #d275ba, #f7bc60) !important;
+        background: -moz-linear-gradient(center bottom, #d275ba 0%, #f75c60 100%) !important;
+        background: -o-linear-gradient(#f7bc60, #d275ba) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7bc60', endColorstr='#d275ba', GradientType=0) !important;
+        color: #fff;
+}
+.bg-teald-gradient {
+        background: #808000 !important;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #808000), color-stop(1, #39CCCC)) !important;
+        background: -ms-linear-gradient(bottom, #808000, #39CCCC) !important;
+        background: -moz-linear-gradient(center bottom, #808000 0%, #39CCCC 100%) !important;
+        background: -o-linear-gradient(#39CCCC, #808000) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#39CCCC', endColorstr='#808000', GradientType=0) !important;
+        color: #fff;
+}
+.bg-te-gradient {
+        background: #39834C !important;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #39CCCC), color-stop(1, #F39E16)) !important;
+        background: -ms-linear-gradient(bottom, #F39E16, #39CCCC) !important;
+        background: -moz-linear-gradient(center bottom, #F39E16  0%, #39CCCC 100%) !important;
+        background: -o-linear-gradient(#F39E16, #39CCCC) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F39E16', endColorstr='#39CCCC', GradientType=0) !important;
+        color: #fff;
+}
+canvas{
+        background-color: #efefef;
+        padding: 15px 10px;
+}

@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2017, 6:19:24 PM
+    Author     : Advit
+*/ 
+@media print { 
+        body { 
+            font-family: serif; 
+            font-size: 10px; 
+        } 
+        .pull-left h4{
+                font-size:12px;   
+        } 
+        .text-muted{
+                display: none;
+        }
+        .text-bold{
+                font-weight: bold;
+        }
+        .text-center{
+                text-align: center; 
+        }
+        .pull-left{
+                text-align: left; 
+        }
+        .pull-right{
+                text-align: right; 
+                top:0;
+                margin-top: -8%; 
+        } 
+        .img-logo{
+               width:30px;
+               height:30px;
+        }
+        .table-bordered,.table-bordered tr td, .table-bordered tr th{
+                border-collapse: collapse;
+                border:  1px solid #000;
+                border-spacing:5px; 
+        } 
+        .inline-flex{
+                display: inline-flex; 
+        }   
+}
